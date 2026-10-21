@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaurish Kabadge – B.Tech CSE (AIML) Student</title>
+<meta name="description" content="Portfolio of Gaurish Kabadge, second-year B.Tech CSE (AIML) student at KITCOEK.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#edf1f6;--ink:#16233a;--muted:#55627a;--line:#c5cedb;--accent:#2b45e8;--card:#f8fafc}
+@media (prefers-color-scheme:dark){:root{--bg:#101a2e;--ink:#e8edf6;--muted:#9fadc4;--line:#2a3a58;--accent:#8ea0ff;--card:#16233a}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 "Public Sans",system-ui,sans-serif}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+header.nav{padding:1.25rem 0;border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem}
+.logo{font:700 1.1rem "Bricolage Grotesque",sans-serif;text-decoration:none;color:var(--ink)}
+nav a{margin-left:1.25rem;color:var(--muted);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--accent)}
+.hero{padding:5rem 0 4rem;display:grid;grid-template-columns:1.4fr 1fr;gap:2rem;align-items:center}
+.hero h1{font:800 clamp(2.8rem,8vw,5.6rem)/.98 "Bricolage Grotesque",sans-serif;letter-spacing:-.03em}
+.hero p{margin-top:1.5rem;max-width:34rem;color:var(--muted);font-size:1.15rem}
+.btns{margin-top:2rem;display:flex;gap:.75rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:#fff}
+.btn.alt{color:var(--accent)}
+.net{width:100%;height:auto;color:var(--accent)}
+.net line{stroke:var(--line);stroke-width:1.5}
+.net circle{fill:var(--bg);stroke:currentColor;stroke-width:2.5}
+.net .pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{fill:currentColor}}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+h2{font:700 1.9rem "Bricolage Grotesque",sans-serif;letter-spacing:-.01em;margin-bottom:1.5rem}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:.5rem;padding:1.25rem}
+.fact b{display:block;font:700 1.5rem "Bricolage Grotesque",sans-serif}
+.fact span{color:var(--muted)}
+.edu{list-style:none;padding:0;border-left:3px solid var(--accent)}
+.edu li{padding:0 0 1.5rem 1.25rem}
+.edu li:last-child{padding-bottom:0}
+.edu strong{font:700 1.2rem "Bricolage Grotesque",sans-serif}
+.edu small{display:block;color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:.6rem;padding:0;list-style:none}
+.skills li{padding:.35rem .9rem;border:1px solid var(--line);border-radius:2rem;background:var(--card);font-weight:500}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1.25rem}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:.5rem;padding:1.5rem}
+.proj h3{font:700 1.2rem "Bricolage Grotesque",sans-serif;margin-bottom:.5rem}
+.proj p{color:var(--muted);font-size:.98rem}
+.proj a{display:inline-block;margin-top:.75rem;font-weight:600}
+footer{padding:2.5rem 0;border-top:1px solid var(--line);color:var(--muted);font-size:.95rem}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:3rem}.net{max-width:16rem}nav a{margin:0 1rem 0 0}}
+@media (prefers-reduced-motion:reduce){.net .pulse{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#top">Gaurish Kabadge</a>
+  <nav aria-label="Main"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <div>
+    <h1>Gaurish Kabadge</h1>
+    <p>Second-year B.Tech Computer Science (AI &amp; Machine Learning) student at KITCOEK, learning to build software that learns from data.</p>
+    <div class="btns">
+      <a class="btn main" href="#projects">See my projects</a>
+      <a class="btn alt" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <svg class="net" viewBox="0 0 240 220" role="img" aria-label="Diagram of a small neural network">
+    <g>
+      <line x1="30" y1="40" x2="120" y2="30"/><line x1="30" y1="40" x2="120" y2="110"/><line x1="30" y1="40" x2="120" y2="190"/>
+      <line x1="30" y1="110" x2="120" y2="30"/><line x1="30" y1="110" x2="120" y2="110"/><line x1="30" y1="110" x2="120" y2="190"/>
+      <line x1="30" y1="180" x2="120" y2="30"/><line x1="30" y1="180" x2="120" y2="110"/><line x1="30" y1="180" x2="120" y2="190"/>
+      <line x1="120" y1="30" x2="210" y2="70"/><line x1="120" y1="110" x2="210" y2="70"/><line x1="120" y1="190" x2="210" y2="70"/>
+      <line x1="120" y1="30" x2="210" y2="150"/><line x1="120" y1="110" x2="210" y2="150"/><line x1="120" y1="190" x2="210" y2="150"/>
+    </g>
+    <circle cx="30" cy="40" r="10"/><circle cx="30" cy="110" r="10"/><circle cx="30" cy="180" r="10"/>
+    <circle class="pulse" cx="120" cy="30" r="10"/><circle class="pulse" cx="120" cy="110" r="10" style="animation-delay:.8s"/><circle class="pulse" cx="120" cy="190" r="10" style="animation-delay:1.6s"/>
+    <circle cx="210" cy="70" r="10"/><circle cx="210" cy="150" r="10"/>
+  </svg>
+</div>
+
+<section id="about"><div class="wrap">
+  <h2>About me</h2>
+  <p style="max-width:40rem">I'm an engineering student focused on AI and machine learning. I like turning what I learn in class into small, working projects and publishing them on GitHub.</p>
+  <div class="facts" style="margin-top:1.5rem">
+    <div class="fact"><b>9.2</b><span>CGPA, B.Tech CSE (AIML)</span></div>
+    <div class="fact"><b>2nd year</b><span>KITCOEK</span></div>
+  </div>
+</div></section>
+
+<section id="education"><div class="wrap">
+  <h2>Education</h2>
+  <ul class="edu">
+    <li><strong>B.Tech, Computer Science &amp; Engineering (AIML)</strong><small>KITCOEK · Currently in second year · CGPA 9.2</small></li>
+    <li><strong>HSC (12th)</strong><small>Dyandeep Junior College</small></li>
+    <li><strong>SSC (10th)</strong><small>Alphonsa School, Miraj</small></li>
+  </ul>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills</h2>
+  <ul class="skills">
+    <li>Python</li><li>Machine Learning</li><li>HTML &amp; CSS</li><li>LaTeX</li><li>Git &amp; GitHub</li>
+  </ul>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Projects</h2>
+  <div class="projects">
+    <article class="proj">
+      <h3>LaTeX Resume</h3>
+      <p>My resume, typeset in LaTeX on Overleaf.</p>
+      <a href="#contact">Add link</a>
+    </article>
+    <article class="proj">
+      <h3>This portfolio</h3>
+      <p>A static site built with HTML and CSS, hosted free on GitHub Pages.</p>
+      <a href="https://github.com/Gaurish0867/portfolio">View source</a>
+    </article>
+    <article class="proj">
+      <h3>Your next project</h3>
+      <p>Replace this card with a project title and one sentence on what it does.</p>
+      <a href="https://github.com/Gaurish0867">Open on GitHub</a>
+    </article>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p>Find my code on <a href="https://github.com/Gaurish0867">GitHub</a> or write to me at <a href="mailto:kabadgegaurish867@gmail.com">kabadgegaurish867@gmail.com</a>.</p>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Gaurish Kabadge</div></footer>
+</body>
+</html>
